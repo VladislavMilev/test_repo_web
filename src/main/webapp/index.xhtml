@@ -10,16 +10,18 @@
     <h:head>
         <!--<h:outputStylesheet binding="css" value="style.css"/>-->
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="shortcut icon" href="img/ate.gif"/>
         <title>Server</title>
     </h:head>
 
     <h:body>
+        <p:growl id="growl" showDetail="true" life="2000"/>
         <p:panel id="panel" header="Hello">
             <h:form id="form">
             <p:panelGrid id="panelGrid" columns="3">
                 <p:outputLabel for="name" value="Name: "/>
-                <p:inputText id="name" value="#{mainBean.name}"/>
-                <p:commandButton value="OK" id="nemeButton" update="outHideName outHideAge"/>
+                <p:inputText id="name" value="#{mainBean.name}" required="true"/>
+                <p:commandButton value="OK" id="nemeButton" actionListener="#{mainBean.message}" update="outHideName outHideAge growl"/>
 
                 <p:outputLabel for="age" value="Age: "/>
                 <p:inputText id="age" value="#{mainBean.age}"/>
