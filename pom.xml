@@ -102,6 +102,23 @@
             <version>1.5.0.Final</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/hibernate/hibernate3 -->
+        <dependency>
+            <groupId>hibernate</groupId>
+            <artifactId>hibernate3</artifactId>
+            <version>3.0.5</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+        <dependency>
+            <groupId>org.hsqldb</groupId>
+            <artifactId>hsqldb</artifactId>
+            <version>2.2.8</version>
+            <scope>test</scope>
+        </dependency>
+
+
+
 
 
     </dependencies>
