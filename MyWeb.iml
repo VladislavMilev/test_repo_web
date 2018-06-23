@@ -74,11 +74,6 @@
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.4.2" level="project" />
     <orderEntry type="library" name="Maven: javax.transaction:jta:1.1" level="project" />
     <orderEntry type="library" name="Maven: javassist:javassist:3.4.GA" level="project" />
-    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4.1212.jre7" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.ejb:ejb-api:3.0" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.hql:hibernate-hql-lucene:1.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-search-engine:5.8.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:5.5.4" level="project" />
@@ -97,5 +92,10 @@
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: hibernate:hibernate3:3.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hsqldb:hsqldb:2.2.8" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4.1212.jre7" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.ejb:ejb-api:3.0" level="project" />
   </component>
 </module>
