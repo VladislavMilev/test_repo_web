@@ -16,23 +16,21 @@
 
     <h:body>
         <p:growl id="growl" showDetail="true" life="2000"/>
-        <p:panel id="panel" header="Hello">
+        <p:panel id="panel" header="Log in">
+            <p:messages id="messages" />
             <h:form id="form">
-            <p:panelGrid id="panelGrid" columns="3">
-                <p:outputLabel for="name" value="Name: "/>
-                <p:inputText id="name" value="#{mainBean.name}" required="true"/>
-                <p:commandButton value="OK" id="nemeButton" actionListener="#{mainBean.message}" update="outHideName outHideAge growl"/>
+            <p:panelGrid id="panelGrid" columns="2">
+                <p:outputLabel for="email" value="Email: "/>
+                <p:inputText id="email" value="#{mainBean.email}" required="true" />
 
-                <p:outputLabel for="age" value="Age: "/>
-                <p:inputText id="age" value="#{mainBean.age}"/>
-                <p:outputLabel value=""/>
-
-                <p:outputLabel id="out" value="Hello"/>
-                <p:outputLabel id="outHideName" value="#{mainBean.name}"/>
-                <p:outputLabel id="outHideAge" value="#{mainBean.age}"/>
+                <p:outputLabel for="password" value="Pass: "/>
+                <p:password id="password" value="#{mainBean.password}"/>
             </p:panelGrid>
+                <p:commandButton value="OK" id="nemeButton" actionListener="#{mainBean.message}" update="email password growl"/>
             </h:form>
         </p:panel>
+
+
     </h:body>
 </f:view>
 

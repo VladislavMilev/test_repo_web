@@ -47,12 +47,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
-    <orderEntry type="library" name="Mojarra-2.0.1-FCS" level="project" />
-    <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
-    <orderEntry type="library" name="Hibernate 5.2.14-5.2.14" level="project" />
-    <orderEntry type="library" name="javax.transaction-api-1.2" level="project" />
-    <orderEntry type="library" name="jsf_privat" level="project" />
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" exported="" name="Mojarra-2.0.1-FCS" level="project" />
+    <orderEntry type="library" exported="" name="Mojarra-2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate 5.2.14-5.2.14" level="project" />
+    <orderEntry type="library" exported="" name="javax.transaction-api-1.2" level="project" />
+    <orderEntry type="library" exported="" name="jsf_privat" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.faces:2.2.10" level="project" />
     <orderEntry type="library" name="Maven: org.primefaces:primefaces:5.2.RC1" level="project" />
     <orderEntry type="library" name="Maven: org.primefaces.themes:all-themes:1.0.10" level="project" />
@@ -90,7 +90,6 @@
     <orderEntry type="library" name="Maven: org.hibernate.hql:hibernate-hql-parser:1.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.4" level="project" />
     <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
-    <orderEntry type="library" name="Maven: hibernate:hibernate3:3.0.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hsqldb:hsqldb:2.2.8" level="project" />
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4.1212.jre7" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:servlet-api:2.5" level="project" />

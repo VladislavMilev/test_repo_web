@@ -1,4 +1,8 @@
-
+#panel{
+    width: 42%;
+    position: absolute;
+    margin: 10% 0% 30% 30%;
+}
 
 TABLE {
     width: 300px; /* Ширина таблицы */
