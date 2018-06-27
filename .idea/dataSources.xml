@@ -10,5 +10,11 @@
         <property name="ApplicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="META-INF:hibernate.cfg/Hibernate" uuid="1fafc780-e17a-4a93-b2f9-9daafef17194">
+      <imported>true</imported>
+      <configured-by-url>true</configured-by-url>
+      <remarks>$PROJECT_DIR$/src/main/resources/META-INF/hibernate.cfg</remarks>
+      <jdbc-driver>EJB.Connection</jdbc-driver>
+    </data-source>
   </component>
 </project>
